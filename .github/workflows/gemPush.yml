@@ -13,7 +13,7 @@ jobs:
         id: release
         with:
           release-type: ruby
-          package-name: release-please-demo
+          package-name: kata-temp-0.0.1.gem
           bump-minor-pre-major: true
       # Checkout code if release was created
       - uses: actions/checkout@v2
